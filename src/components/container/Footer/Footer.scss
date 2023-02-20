@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 5rem auto 2rem auto;
+    column-gap: 2rem;
+    color: #fff;
+    padding: 1rem 3rem;
+
+    .copyright {
+
+        p {
+            font-size: 0.85rem;
+
+            span {
+                color: #d479f0;
+                font-weight: 800;
+            }
+        }
+    }
+
+    .encuentrame {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+
+        h4 {
+            font-size: 0.85rem;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 0.5rem;
+            transition: 0.3s;
+
+            svg {
+                opacity: 0.7;
+                cursor: pointer;
+                color: #d479f0;
+                transition: 1s;
+                 
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
