@@ -75,7 +75,7 @@ export const workImages = [
     name: "project 3",
     category: "web",
     value: "https://github.com/sarabarredo/Ecommerce-Landing-page",
-    view: "http://localhost:3001/Ecommerce-Landing-Page"
+    view: "https://sarabarredo.github.io/ecommerce-landing-page/"
   },
   {
     id: 4,
