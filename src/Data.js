@@ -9,7 +9,7 @@ import work5 from "./assets/work5.png";
 import work6 from "./assets/work6.png";
 
 
-export const navLinks = ["home", "sobre mi", "habilidades", "portfolio"]
+export const navLinks = ["home", "about me", "skills", "portfolio"]
 
 export const socialIcons = [
   <a href="https://www.linkedin.com/in/sarabarredo/" target={`blank`}><FaLinkedin /></a>,
@@ -21,13 +21,13 @@ export const bios = [
   {
     id: 1,
     icon: <FaUser />,
-    key: "Nombre",
+    key: "Name",
     value: "Sara"
   },
   {
     id: 2,
     icon: <FaPhoneAlt />,
-    key: "Teléfono",
+    key: "Phone",
     value: <a href="tel:+34666322948" id="phone-num">+34666322948</a>
   },
   {
@@ -45,9 +45,9 @@ export const icons = [<FaHtml5 />, <FaCss3 />, <DiJavascript />, <SiTypescript /
 export const experiences = [
   {
     id: 1,
-    year: "2022 - Actualidad",
-    position: "Desarrolladora junior autodidacta",
-    company: "Proyectos personales"
+    year: "2022 - present",
+    position: "Self-taught Junior Developer",
+    company: "Personal Projects"
   }
 ]
 
@@ -65,7 +65,7 @@ export const workImages = [
     id: 2,
     img: work2,
     name: "project 2",
-    category: "componente",
+    category: "component",
     value: "https://github.com/sarabarredo/Animated-Product-Card",
     view: "https://sarabarredo.github.io/Animated-Product-Card/"
   },
@@ -75,13 +75,13 @@ export const workImages = [
     name: "project 3",
     category: "web",
     value: "https://github.com/sarabarredo/Ecommerce-Landing-page",
-    view: "http://localhost:3001/Ecommerce-Landing-Page"
+    view: "https://sarabarredo.github.io/ecommerce-landing-page/"
   },
   {
     id: 4,
     img: work4,
     name: "project 4",
-    category: "componente",
+    category: "component",
     value: "https://github.com/sarabarredo/Memory-Card-Game",
     view: "https://sarabarredo.github.io/Memory-Card-Game/"
   },
@@ -89,7 +89,7 @@ export const workImages = [
     id: 5,
     img: work5,
     name: "project 5",
-    category: 'componente',
+    category: 'component',
     value: 'https://github.com/sarabarredo/Credit-Card-Form',
     view: 'https://sarabarredo.github.io/Credit-Card-Form/'
   },
@@ -97,11 +97,11 @@ export const workImages = [
     id: 6,
     img: work6,
     name: "project 6",
-    category: "diseño",
+    category: "design",
     view: 'https://www.figma.com/community/file/1207708654383986729'
   }
 ]
 
 export const workNavs = [
-  "Todos", "Web", "Componente", "Diseño"
+  "All", "Web", "Component", "Design"
 ]

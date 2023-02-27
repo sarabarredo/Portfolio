@@ -7,12 +7,12 @@ import { motion } from "framer-motion";
 
 const Portfolio = () => {
 
-    const [tab, setTab] = useState({ name: "todos" });
+    const [tab, setTab] = useState({ name: "all" });
     const [works, setWorks] = useState ([]);
     const [active, setActive] = useState (0);
 
     useEffect(() => {
-        if (tab.name === 'todos') {
+        if (tab.name === 'all') {
             setWorks(workImages)
         } else {
             const newWork = workImages.filter((workImage) => {
@@ -29,10 +29,10 @@ const Portfolio = () => {
     return (
     <div className="container" id="portfolio">
         <motion.div initial={{opacity: 0}} whileInView={{y: [-50, 0], opacity: 1}} transition={{duration: 1}} className="title">
-            <span>Mi trabajo</span>
-            <h1>Proyectos Personales</h1>
+            <span>My work</span>
+            <h1>Personal Projects</h1>
         </motion.div>
-        <motion.div initial={{opacity: 0}} whileInView={{y: [-50, 0], opacity: 1}} transition={{duration: 1}} className="botones">
+        <motion.div initial={{opacity: 0}} whileInView={{y: [-50, 0], opacity: 1}} transition={{duration: 1}} className="buttons">
             {workNavs.map((workNav, index) => {
                 return ( <button className={`${active === index ? 'active' : ''}`} onClick={(e) => activeTab(e, index)} key={index}>{workNav}</button>)
             })}

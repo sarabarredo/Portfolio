@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
 
-    .perfil {
+    .profile {
         width: 110px;
         height: 110px;
 
@@ -14,7 +14,7 @@
             object-fit: cover;
         }
     }
-    .texto-perfil {
+    .profile-text {
         margin-top: 1rem;
         display: flex;
         flex-direction: column;
@@ -32,13 +32,13 @@
                 color: #d479f0;
             }
         }
-        .trabajo {
+        .work {
             margin-top: 1rem;
             color: #fff;
             opacity: 0.5;
             font-size: 1rem;
         }
-        .texto {
+        .text {
             margin-top: 2rem;
             color: #fff;
             font-size: 5rem;

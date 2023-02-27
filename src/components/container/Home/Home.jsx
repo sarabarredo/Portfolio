@@ -18,20 +18,20 @@ const Home = () => {
     }
     return ( 
     <motion.div initial={{y: -15, opacity: 0}} animate={{y: 0, opacity: 1}} transition={{duration: 2, delay: 0.5}} className="container" id="home">
-        <div className="perfil">
+        <div className="profile">
             <img src={portfolio} alt="portfolio-img" />
         </div>
-        <div className="texto-perfil">
-            <h3 className="nombre">¡Hola!, soy <span>Sara Barredo</span></h3>
-            <span className="trabajo">Desarrolladora FrontEnd residente en España</span>
-        <span className="texto">
-            Autodidacta y<br />
-            apasionada por el<br />
-            desarrollo web.
+        <div className="profile-text">
+            <h3 className="name">Hi!, I'm <span>Sara Barredo</span></h3>
+            <span className="work">FrontEnd Developer based in Spain</span>
+        <span className="text">
+            Self-taught and<br />
+            passionate about<br />
+            web development.
         </span>
-        <motion.a href="mailto:sarabarredo2000@gmail.com" target={"_blank"} variants={moveVariants} animate='animation' whileHover={{scale: 1.1}} transition={{duration: 0.3}}>Contacta conmigo</motion.a>
-        <div className="web">Desarrolladora Web</div>
-        <div className="ui">Diseñadora UI/UX</div>
+        <motion.a href="mailto:sarabarredo2000@gmail.com" target={"_blank"} variants={moveVariants} animate='animation' whileHover={{scale: 1.1}} transition={{duration: 0.3}}>Contact Me</motion.a>
+        <div className="web">Web Developer</div>
+        <div className="ui">UI/UX Designer</div>
         </div>
     </motion.div>
     );

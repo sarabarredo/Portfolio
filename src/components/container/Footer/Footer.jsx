@@ -9,11 +9,11 @@ const Footer = () => {
             <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 1.5}} className="footer">
                 <div className="copyright">
                     <p>
-                        &copy; 2023 Todos los derechos reservados | Desarrollado por <span>Sara Barredo</span>
+                        &copy; 2023 All Rights Reserved | Developed by <span>Sara Barredo</span>
                     </p>
                 </div>
-                <div className="encuentrame">
-                    <h4>Encuéntrame en</h4>
+                <div className="find-me">
+                    <h4>Find me on</h4>
                     <div className="social-icons">
                         {socialIcons.map((socialIcon, index) => {
                             return <div key={index}>{socialIcon}</div>
