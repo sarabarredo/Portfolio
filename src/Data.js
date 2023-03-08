@@ -89,9 +89,9 @@ export const workImages = [
     id: 5,
     img: work5,
     name: "project 5",
-    category: 'component',
-    value: 'https://github.com/sarabarredo/Credit-Card-Form',
-    view: 'https://sarabarredo.github.io/Credit-Card-Form/'
+    category: 'web',
+    value: 'https://github.com/sarabarredo/crypto-tracker',
+    view: 'https://sarabarredo.github.io/crypto-tracker/'
   },
   {
     id: 6,
