@@ -58,8 +58,8 @@ export const workImages = [
     img: work1,
     name: "project 1",
     category: "web",
-    value: "https://github.com/sarabarredo/Travel-Website-Project",
-    view: "https://sarabarredo.github.io/Travel-Website-Project/"
+    value: "https://github.com/sarabarredo/Luxe-Restaurant",
+    view: "https://sarabarredo.github.io/Luxe-Restaurant/"
   },
   {
     id: 2,
