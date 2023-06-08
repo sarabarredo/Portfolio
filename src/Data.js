@@ -90,8 +90,8 @@ export const workImages = [
     img: work5,
     name: "project 5",
     category: 'web',
-    value: 'https://github.com/sarabarredo/crypto-tracker',
-    view: 'https://sarabarredo.github.io/crypto-tracker/'
+    value: 'https://github.com/sarabarredo/crypto-tracking-homepage',
+    view: 'https://sarabarredo.github.io/crypto-tracking-homepage/'
   },
   {
     id: 6,
